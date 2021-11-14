@@ -1,9 +1,7 @@
 import type { NextPage } from 'next';
 import AOS from 'aos';
-import Head from 'next/head';
-import Image from 'next/image';
 import { useEffect } from 'react';
-import styles from '../styles/Home.module.css';
+
 import Navbar from '../components/organism/Navbar';
 import MainBanner from '../components/organism/MainBanner';
 import TransactionStep from '../components/organism/TransactionStep';
