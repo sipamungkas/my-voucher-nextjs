@@ -1,9 +1,12 @@
+import Footer from '../../components/organism/Footer';
 import TopUpForm from '../../components/organism/TopUpForm';
 import TopUpItem from '../../components/TopUpItem';
+import Navbar from '../../components/organism/navbar';
 
 export default function Detail() {
   return (
     <>
+      <Navbar />
       <section className='detail pt-lg-60 pb-50'>
         <div className='container-xxl container-fluid'>
           <div className='detail-header pb-50'>
@@ -26,6 +29,7 @@ export default function Detail() {
           </div>
         </div>
       </section>
+      <Footer />F
     </>
   );
 }
