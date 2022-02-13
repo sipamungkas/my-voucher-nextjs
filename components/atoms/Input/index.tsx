@@ -1,6 +1,6 @@
 import { InputHTMLAttributes } from 'react';
 
-interface InputProps {
+export interface InputProps {
   label: string;
 }
 
